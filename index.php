@@ -17,6 +17,9 @@
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </div>
+    <section id="home" class="section">Home Content</section>
+    <section id="about" class="section">About Content</section>
+    <section id="contact" class="section">Contact Content</section>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ullam vel commodi, explicabo natus iste laborum eveniet eligendi voluptas voluptatum odio repellat perspiciatis molestias mollitia nesciunt, veniam eum quod at?</p>
 </body>
 </html>
