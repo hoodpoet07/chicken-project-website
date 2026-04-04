@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('images/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+    padding: 10px;
+
+}
+.navbar h1{
+    color: orangered;
+    margin-right: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    }
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}

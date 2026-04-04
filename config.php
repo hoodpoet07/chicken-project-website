@@ -1,0 +1,19 @@
+<?php
+// Database configuration
+$db_server = "localhost";
+$db_username = "root";
+$db_password = "";
+$db_name = "jtk_farm";
+$conn="";
+
+$conn = mysqli_connect($db_server, 
+                       $db_username, 
+                       $db_password, 
+                       $db_name);
+
+if ($conn){
+    echo"You are connected to the database";
+}else{
+    echo"Connection failed: " . mysqli_connect_error();
+}
+?>
