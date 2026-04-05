@@ -17,3 +17,20 @@
     </form>
 </body>
 </html>
+
+<?php
+include 'config.php';
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = mysqli_real_escape_string($conn, $_POST['username']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
+    $role = mysqli_real_escape_string($conn, $_POST['role']);
+
+    $sql = "INSERT INTO users (username, password, role) VALUES ('$username', '$password', '$role')";
+    
+    if (mysqli_query($conn, $sql)) {
+        echo "<script>alert('User added successfully!');</script>";
+    } else {
+        echo "<script>alert('Error adding user: " . mysqli_error($conn) . "');</script>";
+    }
+}
+?>
