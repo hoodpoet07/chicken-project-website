@@ -29,5 +29,6 @@
         <a href="http://www.x.com/tapiwanashetirekerwi" target="_blank"><img src="icons\icons8-x-50.png" alt="Twitter">Follow us on Twitter</a>
         <a href="http://www.instagram.com/juniortk" target="_blank"><img src="icons\icons8-instagram-50.png" alt="Instagram">Follow us on Instagram</a>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
