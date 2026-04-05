@@ -1,8 +1,16 @@
-const hero = document.getElementById('hero-section');
+const hero = document.getElementById('home');
 const images = [
-    'url("farm1.jpg")',
-    'url("farm2.jpg")',
-    'url("farm3.jpg")'
+    'url("backgrounds/bimage1.jpg")',
+    'url("backgrounds/bimage2.jpg")',
+    'url("backgrounds/bimage3.jpg")',
+    'url("backgrounds/bimage4.jpg")',
+    'url("backgrounds/bimage5.jpg")',
+    'url("backgrounds/bimage6.jpg")',
+    'url("backgrounds/bimage7.jpg")',
+    'url("backgrounds/bimage8.jpg")',
+    'url("backgrounds/bimage9.jpg")',
+    'url("backgrounds/bimagex.jpg")'
+    
 ];
 
 let currentIndex = 0;
