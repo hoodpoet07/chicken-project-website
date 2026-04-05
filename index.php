@@ -47,10 +47,10 @@
         
     </section>
     <section id="contact" class="section">
-        <a href="http://www.facebook.com/Stanley Junior Tapiwanashe Tirekerwi" target="_blank"><img src="icons/icons8-facebook-50.png" alt="Facebook">Visit Us on FAcebook</a>
-        <a href="http://wa.me/263780644286" target="_blank"><img src="icons\icons8-whatsapp-50.png" alt="WhatsApp">Chat with us on Whatsapp</a>
-        <a href="http://www.x.com/tapiwanashetirekerwi" target="_blank"><img src="icons\icons8-x-50.png" alt="Twitter">Follow us on Twitter</a>
-        <a href="http://www.instagram.com/juniortk" target="_blank"><img src="icons\icons8-instagram-50.png" alt="Instagram">Follow us on Instagram</a>
+        <a href="http://www.facebook.com/Stanley Junior Tapiwanashe Tirekerwi" target="_blank"><img src="icons/icons8-facebook-50.png" alt="Facebook">Visit Us on FACEBOOK</a>
+        <a href="http://wa.me/263780644286" target="_blank"><img src="icons\icons8-whatsapp-50.png" alt="WhatsApp">Chat with us on WHATSAPP</a>
+        <a href="http://www.x.com/tapiwanashetirekerwi" target="_blank"><img src="icons\icons8-x-50.png" alt="Twitter">Follow us on TWITTER(X)</a>
+        <a href="http://www.instagram.com/juniortk" target="_blank"><img src="icons\icons8-instagram-50.png" alt="Instagram">Follow us on INSTAGRAM</a>
     </section>
     <script src="script.js"></script>
 </body>
