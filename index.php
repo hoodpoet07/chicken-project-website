@@ -16,7 +16,12 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
-    <section id="home" class="section">Home Content</section>
+    <section id="home" class="section">
+        <div class="content">
+            <h2>Welcome to JTK Farm</h2>
+            <p>Your trusted source for fresh and healthy farm Eggs and Chicken.</p>
+        </div>
+    </section>
     <section id="about" class="section">About Content</section>
     <section id="contact" class="section">
         <a href="http://www.facebook.com/Stanley Junior Tapiwanashe Tirekerwi" target="_blank"><img src="icons/icons8-facebook-50.png" alt="Facebook">Visit Us on FAcebook</a>
