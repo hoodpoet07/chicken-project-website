@@ -7,15 +7,17 @@
     <link rel="icon" type="png" href="icons/image.png" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+<body id="login-page">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="login-form">
+        <h2>JTK FARM LOGIN</h2>
+        <img src="icons/image.png" alt="JTK Farm Logo" class="login-logo">
+    
+        
+        <input type="text" id="username" name="username" required placeholder="Enter your Username" class="login-input">
         <br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" name="password" required placeholder="Enter your Password" class="login-input">
         <br><br>
-        <input type="submit" value="Login">
+        <input class="login-btn" type="submit" value="Login">
     </form>
 </body>
 </html>
