@@ -191,6 +191,7 @@ img{
     background: #ffffff;
     color: #ff4500;
     transform: translateY(-5px);
+    font-size: 19px;
 }
 .login-form:hover{
     transform: translateY(-5px);
