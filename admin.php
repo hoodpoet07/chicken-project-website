@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>ADMIN</h2>
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post">
-        <input type="text" id="username" name="username" required placeholder="Enter your Username" class="login-input">
+    <h2 id="admin-hd">ADMIN</h2>
+    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" class="add-user-form">
+        <input type="text" id="username" name="username" required placeholder="Enter your Username" class="add-user">
         <input type="password" id="password" name="password" required placeholder="Enter your Password" class="add-user">
         <input type="text" id="role" name="role" required placeholder="Enter your Role" class="add-user">
         <input class="add-btn" type="submit" value="ADD USER">

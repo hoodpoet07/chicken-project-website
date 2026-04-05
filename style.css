@@ -213,3 +213,23 @@ img{
     height: 100vh;
     background-color: #ff4500;
 }
+.add-user-form{
+    display: inline-block;
+}
+.add-user{
+    font-size: 15px;
+    border-bottom: 1px solid #ff4500;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000000cc;
+}
+#admin-hd{
+    font-family: sans-serif;
+    text-align: center;
+    width: 220px;
+    color: #ff4500;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
