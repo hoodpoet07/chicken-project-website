@@ -227,9 +227,39 @@ img{
 #admin-hd{
     font-family: sans-serif;
     text-align: center;
-    width: 220px;
+    width: 100%;
     color: #ff4500;
     font-size: 22px;
     margin: 2px;
     padding: 8px;
+}
+.add-user-form .add-user{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.add-btn{
+    background: #ff4500;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    transform: translateY(-5px);
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.add-btn:hover{
+    background: #ff4500;
+    color: #ffffff;
+    transform: translateY(-5px);
+    font-size: 19px;
 }
