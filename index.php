@@ -51,6 +51,8 @@
         <a href="http://wa.me/263780644286" target="_blank"><img src="icons\icons8-whatsapp-50.png" alt="WhatsApp">Chat with us on WHATSAPP</a>
         <a href="http://www.x.com/tapiwanashetirekerwi" target="_blank"><img src="icons\icons8-x-50.png" alt="Twitter">Follow us on TWITTER(X)</a>
         <a href="http://www.instagram.com/juniortk" target="_blank"><img src="icons\icons8-instagram-50.png" alt="Instagram">Follow us on INSTAGRAM</a>
+        <textarea name="review" id="rvw" placeholder="Share your experience with us!"></textarea>
+        <a href="mailto:info@jtkfarm.com" target="_blank"><img src="icons\email-logo.png" alt="Email">Contact Us via EMAIL</a>
     </section>
     <script src="script.js"></script>
 </body>
